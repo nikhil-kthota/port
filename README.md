@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+# Hi there 👋, I'm Nikhil Thota
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### 👨‍💻 Web Developer | Frontend Developer | Prompt Engineer | AI & ML Enthusiast
 
-## Available Scripts
+I am a goal-oriented and highly motivated technology professional based in **Hyderabad**. I specialize in building responsive, high-quality interfaces and web solutions from 0→1. My passion lies in web development, frontend design, and exploring the capabilities of Large Language Models through Prompt Engineering.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🛠️ Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+*   **Languages:** Java, Python, JavaScript, TypeScript, SQL, HTML, CSS
+*   **Frontend:** React.js, Vue.js, Tailwind CSS, Bootstrap
+*   **Backend & Database:** Node.js, Express, Supabase, MySQL, PostgreSQL, PLSQL
+*   **AI & ML:** Machine Learning, Computer Vision, TensorFlow, Prompt Engineering, LLMs
+*   **Tools:** Git, Cloud Computing
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🚀 Projects
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 📘 [StudyBase](https://studybase-mu.vercel.app/)
+_Oct 2025_
+A comprehensive study management platform built for school students to revise from their coursebooks using AI-powered features. Developed to help students revise aggressively using LLMs while ensuring a high-quality responsive web experience.
+*   **Tech Stack:** LLMs, AI Integration, Supabase, React.js, JavaScript, Tailwind CSS
+*   [GitHub Repo](https://github.com/nikhil-kthota/StudyBase)
 
-### `npm run build`
+### 📂 [ArcRoom](https://nikhil-kthota.github.io/arcroom/)
+_June 2025 - July 2025_
+A modern, secure file storage and sharing platform where users can create private rooms with custom access controls. Features unique room keys, PIN protection, and real-time updates.
+*   **Tech Stack:** HTML, CSS, JavaScript, Vue.js, TypeScript, Postgres, PLSQL
+*   [GitHub Repo](https://github.com/nikhil-kthota/arcroom)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🛡️ [The Advanced Phishing URL Detector](https://github.com/nikhil-kthota/phising-detection)
+_Jan 2025 - June 2025_
+A modern web application that leverages Machine Learning to detect phishing attacks with high accuracy. Performs real-time URL analysis using a model trained on open-source datasets.
+*   **Tech Stack:** Machine Learning, Python, React.js
+*   [GitHub Repo](https://github.com/nikhil-kthota/phising-detection)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🚦 [Smart Traffic Management System](https://github.com/nikhil-kthota/Traffic-management)
+_Jan 2024 - June 2024_
+A smart traffic control system using Computer Vision and a trained LLM (TensorFlow) to analyze real-time traffic density and dynamically adapt signal timings to reduce congestion.
+*   **Tech Stack:** Machine Learning, Computer Vision, TensorFlow, Large Language Models
+*   [GitHub Repo](https://github.com/nikhil-kthota/Traffic-management)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 💬 Collaborative Learning System (In Progress)
+_Dec 2025 - Present_
+A solution designed to enhance real-time student collaboration featuring group chat, video communication, shared resources, and real-time file editing.
+*   **Tech Stack:** React.js, Node.js, Express, Supabase, WebSockets
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 💼 Experience
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Frontend Developer Intern @ Websites Factory
+_April 2020 - May 2021_
+*   Designed and developed the frontend of 100+ websites using HTML, CSS, and Bootstrap.
+*   Improved website rankings and traffic as an SEO engineer through keyword optimization.
+*   Led the development of the company's main website focusing on responsive design and UI.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🎓 Education
 
-## Learn More
+*   **B.Tech (Information Technology)** | MLR Institute of Technology (2023-2027) | CGPA: 8.46
+*   **Class XII** | Telangana State Board (2023) | 97.5%
+*   **Class X** | CBSE (2020) | 88%
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📜 Certifications
 
-### Code Splitting
+*   **Machine Learning Specialization** - Stanford University, DeepLearning.AI
+*   **Prompt Engineering Basics** - IBM
+*   **Software Testing** - IIIT Bangalore, NPTEL
+*   **Data Analytics Essentials** - Cisco
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 📫 Connect with Me
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+*   📧 **Email:** [nikhilkthota@gmail.com](mailto:nikhilkthota@gmail.com)
+*   🔗 **LinkedIn:** [nikhil-kthota](https://www.linkedin.com/in/nikhil-kthota/)
+*   💻 **Portfolio:** [Check out my work!](https://#)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+<p align="center">
+  <i>Let's build something amazing together!</i>
+</p>
