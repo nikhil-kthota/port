@@ -1,24 +1,66 @@
-import React from 'react';
-import '../styles/hero.css';
+import React, { useState } from "react";
+import "../styles/hero.css";
 
-const Hero = () => (
-  <section className="hero">
-    <div className="hero-content">
-      <div className="hero-left">
-        <span className="hero-small">- WEB DEVELOPER <br/>- FRONTEND DEVELOPER <br/>
-        - PROMPT ENGINEER <br/>- AI & ML ENTHUSIAST <br/>- SOFTWARE ENGINEER <br/></span>
+const Hero = () => {
+  const [circlePos, setCirclePos] = useState({ x: 0, y: 0 });
+  const [hover, setHover] = useState(false);
+
+  const handleMouseMove = (e) => {
+    const rect = e.currentTarget.getBoundingClientRect();
+    setCirclePos({
+      x: e.clientX - rect.left,
+      y: e.clientY - rect.top,
+    });
+  };
+  const scrollToNextSection = () => {
+    const nextSection = document.getElementById("about");
+    if (nextSection) {
+      nextSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  return (
+    <section
+      className="hero"
+      onMouseEnter={() => setHover(true)}
+      onMouseLeave={() => setHover(false)}
+      onMouseMove={handleMouseMove}
+    >
+      <div
+        className="hero-circle"
+        style={{
+          left: `${circlePos.x}px`,
+          top: `${circlePos.y}px`,
+        }}
+      ></div>
+
+      <div className="hero-content">
+        <div className="hero-left">
+          <span className="hero-small">
+            - WEB DEVELOPER <br />- FRONTEND DEVELOPER <br />
+            - PROMPT ENGINEER <br />- AI & ML ENTHUSIAST <br />- SOFTWARE
+            ENGINEER
+          </span>
+        </div>
+
+        <div className="hero-center">
+          <span className="hero-name">NIKHIL THOTA</span>
+          <span className="hero-tagline">BUILDING WEB SOLUTIONS FROM 0→1.</span>
+        </div>
+
+        <div className="hero-right">
+          <span className="hero-desc">
+            <b>OPEN TO WORK</b>
+            <br />
+            BASED IN HYDERABAD
+          </span>
+        </div>
       </div>
-      <div className="hero-center">
-        <span className="hero-in-the"></span>
-         <div className="hero-circle" />
-         <span className="hero-tagline">From 0→1, I design and build scalable and high-performing web applications.</span>
-         <span className="hero-name">NIKHIL THOTA</span>
+      <div className="scroll-arrow" onClick={scrollToNextSection}>
+        <div className="arrow-down"></div>
       </div>
-      <div className="hero-right">
-        <span className="hero-desc"><b>OPEN TO WORK </b><br/>BASED IN HYDERABAD</span>
-      </div>
-    </div>
-  </section>
-);
+    </section>
+  );
+};
 
 export default Hero;
